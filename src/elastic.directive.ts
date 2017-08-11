@@ -86,7 +86,6 @@ export class ElasticDirective implements OnInit, OnDestroy, AfterViewInit {
       return;
     }
 
-    this.textareaEl.style.height = 'auto';
     this.textareaEl.style.height = this.textareaEl.scrollHeight + "px";
   }
 }
